@@ -1,0 +1,12 @@
+1. Most frequent ticket type: Refund request
+2. Top 5 ticket subjects: Refund request, Software bug, Product compatibility, Delivery problem, Hardware issue
+3. Product with the most tickets: Canon EOS
+4. Most common support channel: Email
+5. Most common ticket priority: Medium
+6. Most common ticket status: Pending Customer Response
+7. Overall average CSAT: 2.99
+8. Channel with the highest average CSAT: Chat (Average: 3.08, Sample Size: 674.0)
+9. Ticket type with the highest average CSAT: Cancellation request (Average: 3.03, Sample Size: 516.0)
+10. Percentage of tickets with missing Resolution: 67.30%
+11. Percentage of tickets with missing CSAT: 67.30%
+12. Important data limitations: Timestamps are provided as independent dates rather than a sequential timeline anchored to a ticket creation date, so durations cannot be reliably calculated. High percentage of missing CSAT ratings.

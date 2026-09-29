@@ -1,0 +1,124 @@
+{
+    "Total Tickets": 8469,
+    "Rated Tickets": 2769,
+    "Unrated Tickets": 5700,
+    "CSAT Coverage Percentage": 32.69571377966702,
+    "Overall Average CSAT": 2.991332611050921,
+    "Average CSAT by Ticket Channel": {
+        "Chat": 3.083086053412463,
+        "Email": 2.963888888888889,
+        "Phone": 2.952243125904486,
+        "Social media": 2.969298245614035
+    },
+    "Average CSAT by Ticket Type": {
+        "Billing inquiry": 3.0275735294117645,
+        "Cancellation request": 3.0290697674418605,
+        "Product inquiry": 3.016885553470919,
+        "Refund request": 2.934563758389262,
+        "Technical issue": 2.9586206896551723
+    },
+    "Average CSAT by Product": {
+        "Adobe Photoshop": 2.9682539682539684,
+        "Amazon Echo": 3.0416666666666665,
+        "Amazon Kindle": 2.893939393939394,
+        "Apple AirPods": 2.810810810810811,
+        "Asus ROG": 3.19672131147541,
+        "Autodesk AutoCAD": 3.203125,
+        "Bose QuietComfort": 2.823529411764706,
+        "Bose SoundLink Speaker": 2.890625,
+        "Canon DSLR Camera": 3.074074074074074,
+        "Canon EOS": 2.9397590361445785,
+        "Dell XPS": 2.75,
+        "Dyson Vacuum Cleaner": 3.2203389830508473,
+        "Fitbit Charge": 2.888888888888889,
+        "Fitbit Versa Smartwatch": 2.5396825396825395,
+        "Garmin Forerunner": 3.2142857142857144,
+        "GoPro Action Camera": 2.7457627118644066,
+        "GoPro Hero": 3.1875,
+        "Google Nest": 3.0,
+        "Google Pixel": 3.217391304347826,
+        "HP Pavilion": 3.0161290322580645,
+        "LG OLED": 2.767123287671233,
+        "LG Smart TV": 3.0294117647058822,
+        "LG Washing Machine": 3.0,
+        "Lenovo ThinkPad": 3.0638297872340425,
+        "MacBook Pro": 3.1296296296296298,
+        "Microsoft Office": 3.1375,
+        "Microsoft Surface": 2.9508196721311477,
+        "Microsoft Xbox Controller": 2.793103448275862,
+        "Nest Thermostat": 3.0821917808219177,
+        "Nikon D": 3.130434782608696,
+        "Nintendo Switch": 2.857142857142857,
+        "Nintendo Switch Pro Controller": 3.183673469387755,
+        "Philips Hue Lights": 3.0294117647058822,
+        "PlayStation": 2.876923076923077,
+        "Roomba Robot Vacuum": 3.0428571428571427,
+        "Samsung Galaxy": 2.982456140350877,
+        "Samsung Soundbar": 2.8870967741935485,
+        "Sony 4K HDR TV": 3.0675675675675675,
+        "Sony PlayStation": 3.1846153846153844,
+        "Sony Xperia": 2.6923076923076925,
+        "Xbox": 2.9,
+        "iPhone": 3.1219512195121952
+    },
+    "CSAT Rating Distribution": {
+        "1.0": 553,
+        "2.0": 549,
+        "3.0": 580,
+        "4.0": 543,
+        "5.0": 544
+    },
+    "CSAT Availability Counts": {
+        "No": 5700,
+        "Yes": 2769
+    },
+    "Missing CSAT Count": 5700,
+    "Missing CSAT Percentage": 67.30428622033298,
+    "Low CSAT Examples": [
+        {
+            "ticket_id": 5,
+            "ticket_channel": "Email",
+            "ticket_type": "Billing inquiry",
+            "product_purchased": "Autodesk AutoCAD",
+            "ticket_subject": "Data loss",
+            "ticket_description": "I'm having an issue with the {product_purchased}. Please assist.\n\n\nNote: The seller is not responsible for any damages arising out of the delivery of the battleground game. Please have the game in good condition and shipped to you I've noticed a sudden decrease in battery life on my {product_purchased}. It used to last much longer.",
+            "csat": 1.0
+        },
+        {
+            "ticket_id": 11,
+            "ticket_channel": "Phone",
+            "ticket_type": "Cancellation request",
+            "product_purchased": "Nintendo Switch",
+            "ticket_subject": "Data loss",
+            "ticket_description": "I'm having an issue with the {product_purchased}. Please assist. 1-800-799-0808.\n\nProduct Search: What's New in 2-3-4-5? Report Feedback Customer Service is your best I'm using the original charger that came with my {product_purchased}, but it's not charging properly.",
+            "csat": 1.0
+        },
+        {
+            "ticket_id": 12,
+            "ticket_channel": "Chat",
+            "ticket_type": "Product inquiry",
+            "product_purchased": "Microsoft Xbox Controller",
+            "ticket_subject": "Software bug",
+            "ticket_description": "I'm having an issue with the {product_purchased}. Please assist.\n\n4. It is possible that we cannot find some type of text or a product name to identify someone like Mr. Brown.\n\n5. On the I've reviewed the troubleshooting steps on the official support website, but they didn't resolve the problem.",
+            "csat": 1.0
+        },
+        {
+            "ticket_id": 30,
+            "ticket_channel": "Phone",
+            "ticket_type": "Cancellation request",
+            "product_purchased": "Xbox",
+            "ticket_subject": "Cancellation request",
+            "ticket_description": "I'm having an issue with the {product_purchased}. Please assist. It's not possible to remove the missing content. I've already contacted customer support multiple times, but the issue remains unresolved.",
+            "csat": 1.0
+        },
+        {
+            "ticket_id": 36,
+            "ticket_channel": "Chat",
+            "ticket_type": "Cancellation request",
+            "product_purchased": "GoPro Hero",
+            "ticket_subject": "Product recommendation",
+            "ticket_description": "I've recently set up my {product_purchased}, but it fails to connect to any available networks. What steps should I take to troubleshoot this issue? If you know the answer, please let me know.\n\nDo I I've noticed a sudden decrease in battery life on my {product_purchased}. It used to last much longer.",
+            "csat": 1.0
+        }
+    ]
+}

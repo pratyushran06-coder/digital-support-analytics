@@ -1,0 +1,97 @@
+=== DATA QUALITY REPORT ===
+Original Rows: 8469
+Final Rows: 8469
+Original Columns: 17
+Final Columns: 24
+Exact Duplicates Removed: 0
+Duplicate Ticket IDs Remaining: 0
+Missing Values (Total): 25619
+Invalid Ages Set to NaN: 0
+Invalid/Missing Dates: 0
+Invalid CSAT Set to NaN: 0
+
+--- Unique Categorical Values (Before) ---
+Ticket_Status: <ArrowStringArray>
+['Pending Customer Response', 'Closed', 'Open']
+Length: 3, dtype: str
+Ticket_Type: <ArrowStringArray>
+[     'Technical issue',      'Billing inquiry', 'Cancellation request',
+      'Product inquiry',       'Refund request']
+Length: 5, dtype: str
+Ticket_Priority: <ArrowStringArray>
+['Critical', 'Low', 'High', 'Medium']
+Length: 4, dtype: str
+Ticket_Channel: <ArrowStringArray>
+['Social media', 'Chat', 'Email', 'Phone']
+Length: 4, dtype: str
+Customer_Gender: <ArrowStringArray>
+['Other', 'Female', 'Male']
+Length: 3, dtype: str
+Product_Purchased: <ArrowStringArray>
+[                    'GoPro Hero',                    'LG Smart TV',
+                       'Dell XPS',               'Microsoft Office',
+               'Autodesk AutoCAD',              'Microsoft Surface',
+             'Philips Hue Lights',        'Fitbit Versa Smartwatch',
+           'Dyson Vacuum Cleaner',                'Nintendo Switch',
+      'Microsoft Xbox Controller', 'Nintendo Switch Pro Controller',
+                'Nest Thermostat',               'Sony PlayStation',
+            'GoPro Action Camera',                           'Xbox',
+             'LG Washing Machine',                      'Canon EOS',
+                    'HP Pavilion',                  'Amazon Kindle',
+                'Lenovo ThinkPad',                  'Fitbit Charge',
+                'Adobe Photoshop',                   'Google Pixel',
+                    'Amazon Echo',                    'PlayStation',
+                 'Samsung Galaxy',                         'iPhone',
+                        'LG OLED',                    'Sony Xperia',
+                  'Apple AirPods',                 'Sony 4K HDR TV',
+              'Canon DSLR Camera',            'Roomba Robot Vacuum',
+                        'Nikon D',              'Bose QuietComfort',
+               'Samsung Soundbar',                       'Asus ROG',
+         'Bose SoundLink Speaker',                    'Google Nest',
+              'Garmin Forerunner',                    'MacBook Pro']
+Length: 42, dtype: str
+
+--- Unique Categorical Values (After) ---
+Ticket_Status: <ArrowStringArray>
+['Pending Customer Response', 'Closed', 'Open']
+Length: 3, dtype: str
+Ticket_Type: <ArrowStringArray>
+[     'Technical Issue',      'Billing Inquiry', 'Cancellation Request',
+      'Product Inquiry',       'Refund Request']
+Length: 5, dtype: str
+Ticket_Priority: <ArrowStringArray>
+['Critical', 'Low', 'High', 'Medium']
+Length: 4, dtype: str
+Ticket_Channel: <ArrowStringArray>
+['Social Media', 'Chat', 'Email', 'Phone']
+Length: 4, dtype: str
+Customer_Gender: <ArrowStringArray>
+['Other', 'Female', 'Male']
+Length: 3, dtype: str
+Product_Purchased: <ArrowStringArray>
+[                    'Gopro Hero',                    'Lg Smart Tv',
+                       'Dell Xps',               'Microsoft Office',
+               'Autodesk Autocad',              'Microsoft Surface',
+             'Philips Hue Lights',        'Fitbit Versa Smartwatch',
+           'Dyson Vacuum Cleaner',                'Nintendo Switch',
+      'Microsoft Xbox Controller', 'Nintendo Switch Pro Controller',
+                'Nest Thermostat',               'Sony Playstation',
+            'Gopro Action Camera',                           'Xbox',
+             'Lg Washing Machine',                      'Canon Eos',
+                    'Hp Pavilion',                  'Amazon Kindle',
+                'Lenovo Thinkpad',                  'Fitbit Charge',
+                'Adobe Photoshop',                   'Google Pixel',
+                    'Amazon Echo',                    'Playstation',
+                 'Samsung Galaxy',                         'Iphone',
+                        'Lg Oled',                    'Sony Xperia',
+                  'Apple Airpods',                 'Sony 4K Hdr Tv',
+              'Canon Dslr Camera',            'Roomba Robot Vacuum',
+                        'Nikon D',              'Bose Quietcomfort',
+               'Samsung Soundbar',                       'Asus Rog',
+         'Bose Soundlink Speaker',                    'Google Nest',
+              'Garmin Forerunner',                    'Macbook Pro']
+Length: 42, dtype: str
+
+--- Data Limitations ---
+- Missing First Response Time values cannot be computed because there is no ticket creation timestamp.
+- Missing Time to Resolution values represent unresolved or pending tickets.

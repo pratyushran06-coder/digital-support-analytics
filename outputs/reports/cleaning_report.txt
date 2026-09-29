@@ -1,0 +1,10 @@
+Original row count: 8469
+Duplicate rows removed: 0
+Final row count: 8469
+Invalid dates (became NaT): 0
+Invalid ages (negative): 0
+Invalid CSAT values (outside 1-5): 0
+Missing CSAT percentage: 67.30%
+Missing Resolution percentage: 67.30%
+Timestamp limitation: Cannot calculate response/resolution duration due to lack of a reliable ticket creation timestamp.
+Columns created: purchase_year, purchase_month, purchase_month_name, customer_age_group, description_length, resolution_available, csat_available
